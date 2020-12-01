@@ -13,3 +13,33 @@
  *= require_tree .
  *= require_self
  */
+ div, p, h1 {
+    margin-left: 20px;
+  }
+
+.block {
+    border-left: solid;
+    color: black;
+  }
+}
+  
+  .search-bar {
+      padding: 6px;
+      font-size: 17px;
+      width: 80%;
+      border-radius: 4px;
+  }
+  
+  .btn-primary {
+      color: var(--button-color);
+      background-color: var(--button-background-color);
+      border-radius: 4px;
+      padding: 6px;
+      font-size: 17px;
+    }
+    
+    .btn-primary:hover {
+      box-shadow: inset 0 0 0 20rem var(--darken-1);
+    }
+  
+  
